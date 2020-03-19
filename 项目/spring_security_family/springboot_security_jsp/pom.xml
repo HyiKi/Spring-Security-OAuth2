@@ -44,5 +44,14 @@
             <version>2.1.5</version>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <!--配置运行插件-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
